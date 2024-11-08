@@ -65,8 +65,8 @@ h5{
 }
 .eve{background-color: aqua;
     padding: 2rem 0;
-    display: flex
-    flex-wrap: nowrap
+    display: flex;
+    flex-wrap: nowrap;
     overflow-x: scroll;
     max-height: 250px;
     max-width: 2000px;
@@ -75,4 +75,21 @@ h5{
     text-align: center;
     border: 2px solid black;
     width: 500px;
+}
+
+.programa-1, .programa-2, .programa-3{
+    i {
+        margin-right: 0.7rem;
+        margin-left: 0.2rem;
+    }
+    }
+
+.fecha{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.imagen-1 img{
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
