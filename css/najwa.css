@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagen-1, .imagen-2, .imagen-3{
+
+    img{
+   
+width: 90%;
+height: 100%;
+object-fit: cover;
+border-radius: 1rem;
+margin-top: 0.6rem;
+margin-bottom: 0.6rem;
+margin-left: 0.4rem;
+}
+}
+
+.global{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    row-gap: 0.6rem;
+}
+
+.evento-1, .evento-2 , .evento-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*stilos commun a cambiar */
+h2{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}  
+
+.evento-1 h3, .evento-2 h3, .evento-3 h3{
+
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    font-weight: bold;
+    margin-bottom: -2rem;
+}
+
+ul li{
+    text-align: justify;
+    width: 100%;
+    font-size: 0.9rem;
+    width: 95%;
+    margin-top: 1rem;
+    padding-top: -2rem;
+
+    span{
+        font-weight: bold;
+    }
+}
+
+.programa-1, .programa-2, .programa-3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+/*stilos commun a cambiar*/
